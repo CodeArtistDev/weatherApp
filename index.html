@@ -13,15 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <style>
-        *{
-            overflow: hidden;
-        }
-        body {
+            body {
             background: linear-gradient(135deg, #4e085f, #153677);
             font-family: "Playfair Display", serif;
-            height: 200vh;
             width: 100%;
-            
+            overflow-x: hidden;
             padding: 0px;
             margin: 0px;
         }
@@ -40,12 +36,12 @@
         <div class="col-md-4"></div>
         <div id="container3" class="col-md-4 mt-5 rounded-4">
             <div class="row w-100">
-                <h2 class="text-center mt-5 text-light">Weather Report</h2>
+                <h2  class="text-center mt-5 text-light">Weather Report</h2>
                 <div class="d-flex justify-content-center align-items-center mt-3">
                     <input id="place" type="text" placeholder="Location" class="form-control w-50 fs-5 rounded-start-pill border-0">
                     <button id="search-btn" style="width: 40px; height: 42px; background-color: #ffffff;" class="btn btn-outline-light border-0  rounded-end-pill ms--1 fs-5"><img style="width: 100%" src="./images/search.png" alt="search"></button>
                 </div>
-            </div class="row w-100 ">
+            </div>
             <div class="row w-100 mt-5 mb-5 d-flex justify-content-center align-items-center">
                 <div class="card border-0" style="width: 100%;">
                     <div class="card-body">
